@@ -48,10 +48,17 @@ tabla con sus desempates y el cuadro. Entran datos y salen datos: sin base ni
 servidor, se prueba entero con `pytest` en un segundo. Es donde estarían los
 errores, así que es lo que está cubierto.
 
-### Una página pública y una privada
-La parte que ve la gente —tabla, calendario, cuadro, goleadores— no pide cuenta
-ni instalar nada: es un enlace que se comparte por WhatsApp. La carga de
-resultados sí está protegida.
+### Tres roles, tres vistas distintas
+Un espectador ve la tabla, el calendario, el cuadro, los goleadores, la valla
+menos vencida, las tarjetas y el reglamento del torneo. El organizador además
+inscribe equipos, corre el sorteo, carga resultados y lleva la contabilidad.
+El superadministrador gestiona usuarios y campeonatos archivados. Cada zona
+está protegida por su propia guarda de ruta, y el servidor vuelve a comprobar
+el permiso: esconder un botón no es seguridad.
+
+### Pensada para cargar resultados de pie en la cancha
+La pantalla que más se usa es la de resultados, y se usa con una mano y sin
+sentarse. Todo lo demás del diseño se subordinó a eso.
 
 ---
 
