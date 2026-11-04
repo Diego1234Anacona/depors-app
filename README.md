@@ -1,3 +1,5 @@
+<img src="img/logo.jpg" alt="Depors" width="120">
+
 # Depors — App de campeonatos de microfútbol
 
 **En línea:** [depors.check.snakegym.cloud](https://depors.check.snakegym.cloud)
@@ -62,6 +64,6 @@ sentarse. Todo lo demás del diseño se subordinó a eso.
 
 ---
 
-## Capturas
+## La app por dentro
 
-<!-- Pendientes: pantalla de inicio y tabla de posiciones -->
+![Tabla en vivo, carga del partido y calendario](img/depors.png)
